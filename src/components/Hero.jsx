@@ -1,5 +1,7 @@
 import {HERO_CONTENT} from "../constants"
 import profilePic from '../assets/hellofinal.png'
+import { motion } from "framer-motion"
+
 
 const Hero = () => {
   return (
@@ -11,7 +13,7 @@ const Hero = () => {
                         Achyuth S S
                     </h1>
                     <span className="bg-gradient-to-r from-pink-300 via-slate-600 
-                    to-purple-600 bg-clip-text text-4xl tracking-tight text-transparent">
+                    to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent">
                         UnderGraduate Student
                     </span>
                     <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
