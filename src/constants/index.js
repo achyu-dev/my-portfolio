@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.jpeg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -26,32 +26,43 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Design and Analysis of Different types of Antennas",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully MATLAB Built design for various types of Antena like PIFA, DC Horn antenna.",
+    technologies: ["MATLAB"],
+    link: "https://github.com/achyu2003/Antenna-Design"
   },
   {
-    title: "Task Management App",
+    title: "Digital Twin for University Campus",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An Augmented reality application simulating the 12th floor of PES University.",
+    technologies: ["Unity", "Blender"],
+    link: ""
   },
   {
-    title: "Portfolio Website",
+    title: "Multi Threaded TCP server",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A simple TCP server built off of Socket programs in python for simulating communication between a sender and a reciever.",
+    technologies: ["Python", "Socket Programming"],
+    link: "https://gitlab.com/achyu2003/multi-threaded-tcp-server"
   },
   {
-    title: "Blogging Platform",
+    title: "Multilingual Sentimental Analysis",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Sentiment analysis of A twitter sentiment dataset using novel approaches. Still in the process of publishing in an international conference.",
+    technologies: ["Python", "TensorFlow", "PyTorch"],
+    link:""
+  },
+  {
+    title: "Prediction of Handover failues in Cellular Networks",
+    description:
+      "Predicting Handover failure rates in Cellular networks using machine learning techniques",
+    technologies: ["Python", "TensorFlow", "PyTorch"],
+    link:""
   },
 ];
 
