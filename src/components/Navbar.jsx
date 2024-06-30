@@ -1,7 +1,7 @@
 import logo from "../assets/logowithoutbg.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa"; 
 import { FaTwitterSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
+//import { FaInstagram } from "react-icons/fa6";
 
 
 
@@ -18,9 +18,6 @@ const Navbar = () => {
       </a>
       <a href="https://github.com/achyu-dev">
       <FaGithub/>
-      </a>
-      <a href="https://www.instagram.com/comms_catalyst_03/">
-      <FaInstagram/>
       </a>
 
   </div>
