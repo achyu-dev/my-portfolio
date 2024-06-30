@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and Undergraduate student with a pas
 export const EXPERIENCES = [
   {
     duration: "June 2024 - Present",
-    role: "Rsearch Trainee",
+    role: "Research Trainee",
     company: "Center of Information Security, Forensics and Cyber Resilience, PES University",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Python", "ns3 simulator", "Komondor"],
