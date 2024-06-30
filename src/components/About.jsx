@@ -1,4 +1,5 @@
-import { ABOUT_TEXT } from "../constants"
+import { ABOUT_TEXT } from "../constants";
+import {motion} from "framer-motion";
 
 const About = () => {
   return (
@@ -8,11 +9,15 @@ const About = () => {
       </h1>
       <div className="flex flex-wrap justify-center">
         <div className="w-full lg:w-full lg:p-8">
-          <div className="flex items-center justify-center">
+          <motion.div 
+          whileInView={{opacity: 1, x: 0}}
+          initial={{opacity: 0, x:100}}
+          transition={{duration:0.4}}
+          className="flex items-center justify-center">
             <div className="flex justify-center">
               <p className="text-center">{ABOUT_TEXT}</p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

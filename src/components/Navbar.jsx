@@ -16,7 +16,7 @@ const Navbar = () => {
       <a href="https://www.linkedin.com/in/achyuthss/">
       <FaLinkedin/>
       </a>
-      <a href="https://github.com/achyu2003">
+      <a href="https://github.com/achyu-dev">
       <FaGithub/>
       </a>
       <a href="https://www.instagram.com/comms_catalyst_03/">
