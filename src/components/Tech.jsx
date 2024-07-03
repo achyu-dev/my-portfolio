@@ -50,14 +50,6 @@ const Tech = () => {
           <SiFlutter className="text-7xl text-blue-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-        >
-          <SiKotlin className="text-7xl text-orange-400" />
-        </motion.div>
-        <motion.div
           variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
