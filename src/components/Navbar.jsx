@@ -1,5 +1,4 @@
-import logo from "../assets/logowithoutbg.png";
-import { FaGithub, FaLinkedin, FaTwitterSquare, FaFileAlt } from "react-icons/fa"; 
+import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa"; 
 
 const Navbar = () => {
   return (
@@ -14,7 +13,7 @@ const Navbar = () => {
           <FaGithub />
         </a>
         <div className="relative group">
-          <a href="https://www.overleaf.com/read/grjqbtwdhnqq#e4f5b6" title="Resume">
+          <a href="https://drive.google.com/drive/folders/1qH1MgVoN7E_8dztzpcp1PBVBmDnO05Z1?usp=drive_link" title="Resume">
             <FaFileAlt />
           </a>
           <span className="absolute bottom-full mb-2 hidden w-auto bg-gray-800 text-white text-sm font-medium py-1 px-2 rounded opacity-0 group-hover:opacity-20 transition-opacity duration-300">
