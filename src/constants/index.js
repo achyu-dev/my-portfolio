@@ -39,7 +39,7 @@ export const PROJECTS = [
     description:
       "An Augmented reality application simulating the 12th floor of PES University.",
     technologies: ["Unity", "Blender"],
-    link: ""
+    link: "https://drive.google.com/file/d/12fw6OWqbxU3if4JpDcnLpYPZFckNrZ3N/view?usp=sharing"
   },
   {
     title: "Multi Threaded TCP server",
@@ -62,11 +62,13 @@ export const PROJECTS = [
     description:
       "Predicting Handover failure rates in Cellular networks using machine learning techniques",
     technologies: ["Python", "TensorFlow", "PyTorch"],
-    link:""
+    link:"https://github.com/sswayam23/Prediction-of-Handover-Failures-in-5G-Cellular-Networks-Using-Machine-Learning-Concepts"
   },
 ];
 
 export const CONTACT = {
   phoneNo: "+91 94488 26746 ",
-  email: "achyugeorge7744@gmail.com",
+  email: "kskg031644@gmail.com",
 };
+
+
