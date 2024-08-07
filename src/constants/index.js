@@ -3,7 +3,8 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am an aspiring Software Developer pursuing by B.Tech in ECE From PES University. I am a dedicated and Undergraduate student with a passion for creating Deep learning based applications. I have worked with a variety of technologies, including PyTorch, TensorFlow, Node.js, and more. My journey in this field  began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex and real-world problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open source projects.`;
+export const HERO_CONTENT = `I'm a budding software developer at PES University, where I'm doing a B.Tech in ECE. I am a committed undergraduate student who has a love for developing apps based on deep learning. Among the many technologies I have worked with are PyTorch, TensorFlow, Node.js, and others. I started out in this industry because I had a strong curiosity about how things worked, but it has since developed into a job where I constantly try to learn new skills and overcome obstacles. I work well in groups and take pleasure in finding creative answers to challenging, real-world issues. I like to remain busy, experiment with new technologies, and contribute to open source projects when I'm not developing.`;
+
 export const ABOUT_TEXT = `I am a dedicated and Undergraduate student with a passion for creating Deep learning based applications. With 2 years of project based experience, I have worked with a variety of technologies, including PyTorch, TensorFlow, Node.js, C++, Python and more. My journey in this field  began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to various projects.`;
 
 export const EXPERIENCES = [
@@ -46,7 +47,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A simple TCP server built off of Socket programs in python for simulating communication between a sender and a reciever.",
-    technologies: ["Python", "Socket Programming"],
+    technologies: ["Python", "Socket Programming"], 
     link: "https://gitlab.com/achyu2003/multi-threaded-tcp-server"
   },
   {

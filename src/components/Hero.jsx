@@ -30,7 +30,7 @@ const Hero = () => {
                     initial={{ x: 100, opacity: 0 }} 
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1, delay: 1.4 }}
-                    src={profilePic} alt="Achyuth SS" height="400px" width="400px" className="flex justify-center mt-2 lg:mt-0"/>
+                    src={profilePic} alt="Achyuth SS" height="600px" width="600px" className="flex justify-center mt-2 lg:mt-0"/>
                 </div>
             </div>
             <div className="w-full lg:w-1/2">
@@ -54,9 +54,8 @@ const Hero = () => {
                     variants={container(1.1)}
                     initial="hidden"
                     animate="visible"
-                    className="my-1 max-w-xl py-4 font-light tracking-tighter w-full lg:py-2 lg:mt-4">
+                    className="text-2xl my-1 max-w-xl py-4 tracking-tighter w-full lg:py-2 lg:mt-4">
                         <p className="text-4xl">About Me</p> <br></br>
-        
                         {HERO_CONTENT}
                     </motion.p>
                 </div>
