@@ -1,11 +1,11 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { FaPython } from "react-icons/fa";
-import { SiFlutter } from "react-icons/si";
-import { SiKotlin } from "react-icons/si";
 import { SiPytorch } from "react-icons/si";
 import { SiTensorflow } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiNextdotjs } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -42,12 +42,20 @@ const Tech = () => {
           <FaPython className="text-7xl text-pink-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(3.6)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiFlutter className="text-7xl text-blue-400" />
+          <IoLogoFirebase className="text-7xl text-red-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(3.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiNextdotjs className="text-7xl text-blue-200" />
         </motion.div>
         <motion.div
           variants={iconVariants(1.5)}

@@ -48,7 +48,7 @@ const Hero = () => {
                     animate="visible"
                     className="bg-gradient-to-r from-pink-300 via-slate-600 
                     to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent pb-4 w-full lg:pb-2 lg:text-left mt-2 text-center">
-                        Undergraduate Student
+                        Final Year Undergraduate Student
                     </motion.span>
                     <motion.p
                     variants={container(1.1)}

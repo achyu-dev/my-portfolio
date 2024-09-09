@@ -32,6 +32,8 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
+              <br/>
+              More Projects can be found my GitHbu profile and on my CVs
             </motion.div>
           </div>
         ))}
