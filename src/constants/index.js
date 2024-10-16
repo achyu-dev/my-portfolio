@@ -23,11 +23,11 @@ export const EXPERIENCES = [
     technologies: ["Python", "Machine learning", "Deep learning", "TensorFlow"],
   },
   {
-    duration: "August 2024 - Present",
+    duration: "August 2024 - October 2024",
     role: "Full Stack Developer Intern",
     company: "True Data Software (Remote)",
     description: `Leading a team of developers to create a Smart CRM for multiple clients, and handling authnetication and Frontend Development. Also created An Enterprise Flask Application - Dashboard and integrated with HTML and CSS to fetch Device details from Raspberry pico using data recieved using TCP from Wiznet W5500 Ethernet.`,
-    technologies: ["React JS", "Vite", "Firebase"],
+    technologies: ["React JS", "Vite", "Supabase", "Flask", "Raspberry Pi"],
   },
 
   

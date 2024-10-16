@@ -26,7 +26,7 @@ const Experience = () => {
                     transition={{duration:1.2}}
                     className="w-full max-w-xl lg:w-3/4">
                         <h6 className="text-2xl mb-2 font-semibold">
-                            {experience.role} - <span className="text-sm text-red-400">
+                            {experience.role} - <span className="text-lg text-red-400">
                                 {experience.company}
                                 </span> 
                         </h6>
