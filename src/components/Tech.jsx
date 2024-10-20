@@ -22,6 +22,7 @@ const iconVariants = (duration) => ({
 
 const Tech = () => {
   return (
+    <section id="tech">
     <div className="border-b border-neutral-900 pb-25">
       <h1 className="my-20 text-center text-5xl">My Technologies</h1>
       <div className="flex flex-wrap items-center justify-center gap-5">
@@ -83,6 +84,7 @@ const Tech = () => {
         </motion.div>
       </div>
     </div>
+    </section>
   );
 }
 

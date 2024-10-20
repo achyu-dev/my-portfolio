@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
+//import About from "./components/About";
 import Tech from "./components/Tech";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";

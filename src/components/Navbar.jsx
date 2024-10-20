@@ -1,7 +1,5 @@
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { Link } from "react-scroll";
-import {Projects} from "./Projects";
-
 
 const Navbar = () => {
   return (
@@ -9,28 +7,36 @@ const Navbar = () => {
       <div className="flex flex-shrink-0 items-center"></div>
       <div>
         <Link
-          to="Projects"
+          to="projects"
           smooth={true}
           duration={500}
-          className="mr-5 text-lg font-medium text-gray-800 hover:text-gray-900 cursor-pointer"
+          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Projects
         </Link>
         <Link
-          to="contact"
+          to="tech"
           smooth={true}
           duration={500}
-          className="mr-5 text-lg font-medium text-gray-800 hover:text-gray-900 cursor-pointer"
+          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
-          Contact
+          Technologies
         </Link>
         <Link
           to="experience"
           smooth={true}
           duration={500}
-          className="text-lg font-medium text-gray-800 hover:text-gray-900 cursor-pointer"
+          className="text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Experience
+        </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer px-4"
+        >
+          Contact
         </Link>
       </div>
       <div className="m-8 w-14 flex items-center justify-center gap-5 text-2xl">
