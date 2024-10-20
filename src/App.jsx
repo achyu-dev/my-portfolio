@@ -17,20 +17,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route
-          path="/linkedin"
-          element={<Navigate to="https://www.linkedin.com/in/achyuthss/" />}
-        />
-        <Route
-          path="/github"
-          element={<Navigate to="https://github.com/achyu-dev" />}
-        />
-        <Route
-          path="/resume"
-          element={
-            <Navigate to="https://drive.google.com/drive/folders/1qH1MgVoN7E_8dztzpcp1PBVBmDnO05Z1?usp=drive_link" />
-          }
-        />
-        <Route
           path="/"
           element={
             <div
