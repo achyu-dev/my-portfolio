@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -81,6 +82,14 @@ const Tech = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaGithub className="text-7xl text-black-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <TbBrandReactNative className="text-7xl text-blue-400" />
         </motion.div>
       </div>
     </div>

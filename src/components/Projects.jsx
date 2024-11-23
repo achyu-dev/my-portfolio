@@ -53,7 +53,7 @@ const Projects = () => {
           transition={{ duration: 0.8 }}
           className="mt-12 text-center text-neutral-400"
         >
-          More Projects can be found on my GitHub profile and on my CVs
+          More Projects can be found on my GitHub profile and on my CV
         </motion.div>
       </div>
     </div>
