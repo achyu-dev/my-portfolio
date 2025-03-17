@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -26,15 +26,23 @@ const Navbar = () => {
           to="experience"
           smooth={true}
           duration={500}
-          className="text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
+          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Experience
+        </Link>
+        <Link
+          to="blogs"
+          smooth={true}
+          duration={500}
+          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
+        >
+          Blogs
         </Link>
         <Link
           to="contact"
           smooth={true}
           duration={500}
-          className="text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer px-4"
+          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer px-4"
         >
           Contact
         </Link>
