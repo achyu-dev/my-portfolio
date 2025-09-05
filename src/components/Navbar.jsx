@@ -63,7 +63,7 @@ const Navbar = () => {
           <FaGithub />
         </a>
         <div className="relative group">
-          <a href="https://www.overleaf.com/read/grjqbtwdhnqq#e4f5b6/output/output.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <FaFileAlt />
           </a>
           <span className="absolute bottom-full mb-2 hidden w-auto bg-gray-800 text-white text-sm font-medium py-1 px-2 rounded opacity-0 group-hover:opacity-20 transition-opacity duration-300">
