@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/hellofinal.png";
+import profilePic from "../assets/achyuhero.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -33,8 +33,8 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.4 }}
               src={profilePic}
               alt="Achyuth SS"
-              height="600px"
-              width="600px"
+              height="400px"
+              width="400px"
               className="flex justify-center mt-2 lg:mt-0"
             />
           </div>
