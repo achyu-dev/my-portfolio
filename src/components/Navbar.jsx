@@ -1,51 +1,52 @@
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
+import { Link, Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center"></div>
       <div>
-        <Link
+        <ScrollLink
           to="projects"
           smooth={true}
           duration={500}
           className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Projects
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           to="tech"
           smooth={true}
           duration={500}
           className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Technologies
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           to="experience"
           smooth={true}
           duration={500}
           className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Experience
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           to="blogs"
           smooth={true}
           duration={500}
           className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Blogs
-        </Link>
-        <Link
+        </ScrollLink>
+        <ScrollLink
           to="contact"
           smooth={true}
           duration={500}
-          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer px-4"
+          className="mr-5 text-lg font-medium text-blue-800 hover:text-gray-900 cursor-pointer"
         >
           Contact
-        </Link>
+        </ScrollLink>
       </div>
       <div className="m-8 w-14 flex items-center justify-center gap-5 text-2xl">
         <a
