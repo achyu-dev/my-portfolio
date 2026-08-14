@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
-//import { Link } from "react-router-dom";
-import { Link, Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   return (

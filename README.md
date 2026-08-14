@@ -24,7 +24,7 @@ corepack enable
 ### Installation
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/achyu-dev/my-portfolio.git
 cd achyuth
 pnpm install
 ```
@@ -32,7 +32,7 @@ pnpm install
 ### Run locally
 
 ```bash
-pnpm dev
+pnpm dev --host 0.0.0.0
 ```
 
 Vite will print the local development URL in your terminal, usually `http://localhost:5173`.
