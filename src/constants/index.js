@@ -1,8 +1,3 @@
-import project1 from "../assets/projects/project-1.jpeg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-
 export const HERO_CONTENT = `
 I'm a Software Engineer at KPMG India focused on building reliable backend systems, developer tools, and production-ready applications.
 I work primarily with Python, FastAPI, databases, Linux, and modern web technologies, with experience across APIs, automation, distributed systems, and AI-assisted workflows.
@@ -38,14 +33,6 @@ export const EXPERIENCES = [
     ],
   },
   {
-    duration: "June 2024 - July 2024",
-    role: "Research Trainee",
-    company:
-      "Center of Information Security, Forensics and Cyber Resilience, PES University",
-    description: `Working on Building a predictive Model for Throughput prediction in IEEE 802.11ax Networks. Also exploring predictions in Wired LAN or IEEE 802.3 networks`,
-    technologies: ["PyTorch", "Apache netbeans", "Komondor Network simulator"],
-  },
-  {
     duration: "Aug 2023 - Oct 2024",
     role: "Full Stack Developer Intern",
     company: "True Data Software",
@@ -55,15 +42,6 @@ export const EXPERIENCES = [
     Also built an enterprise Flask dashboard integrating device telemetry received over TCP from embedded hardware.
   `,
     technologies: ["React", "Vite", "Python", "Flask", "REST APIs", "TCP/IP"],
-  },
-  {
-    duration: "May 2024 - Jul 2024",
-    role: "AI/ML Intern",
-    company: "iNeuBytes",
-    description: `
-    Implemented and evaluated classical machine learning and deep learning models across small applied ML tasks, including sentiment classification using Naive Bayes and NLP preprocessing techniques.
-  `,
-    technologies: ["Python", "scikit-learn", "TensorFlow", "NLP"],
   },
   {
     duration: "Jun 2024 - Jul 2024",
@@ -76,51 +54,51 @@ export const EXPERIENCES = [
   `,
     technologies: ["Python", "Machine Learning", "Komondor", "Networking"],
   },
+  {
+    duration: "May 2024 - Jul 2024",
+    role: "AI/ML Intern",
+    company: "iNeuBytes",
+    description: `
+    Implemented and evaluated classical machine learning and deep learning models across small applied ML tasks, including sentiment classification using Naive Bayes and NLP preprocessing techniques.
+  `,
+    technologies: ["Python", "scikit-learn", "TensorFlow", "NLP"],
+  },
 ];
 
 export const PROJECTS = [
   {
-    title: "Design and Analysis of Antenna Systems",
-    image: project1,
+    title: "Project Pegasus",
     description:
-      "Designed and simulated multiple antenna configurations in MATLAB, including PIFA and horn antenna models, and analyzed their radiation characteristics.",
-    technologies: ["MATLAB"],
-    link: "https://github.com/achyu2003/Antenna-Design",
-  },
-  {
-    title: "Digital Twin for University Campus",
-    image: project2,
-    description:
-      "An Augmented reality application simulating the 12th floor of PES University.",
-    technologies: ["Unity", "Blender"],
-    link: "https://drive.google.com/file/d/12fw6OWqbxU3if4JpDcnLpYPZFckNrZ3N/view?usp=sharing",
-  },
-  {
-    title: "Multi-Threaded TCP Server",
-    image: project3,
-    description:
-      "A multi-threaded TCP server built in Python using socket programming to explore concurrent client-server communication and network programming concepts.",
-    technologies: ["Python", "Socket Programming", "TCP/IP"],
-    link: "https://gitlab.com/achyu2003/multi-threaded-tcp-server",
-  },
-  {
-    title: "Multilingual Sentiment Analysis",
-    image: project4,
-    description:
-      "Sentiment analysis of A twitter sentiment dataset using novel approaches. Still in the process of publishing in an international conference.",
-    technologies: ["Python", "TensorFlow", "PyTorch"],
+      "Building a local-first AI voice assistant for Linux using on-device speech recognition, local LLM inference, and structured tool-execution workflows across Debian- and Arch-based environments.",
+    technologies: [
+      "C++",
+      "Python",
+      "Linux",
+      "llama.cpp",
+      "whisper.cpp",
+      "Local LLMs",
+    ],
     link: "",
   },
   {
     title: "Prediction of Handover Failures in Cellular Networks",
     description:
-      "Built a machine learning pipeline to analyze cellular network telemetry and predict handover failures using feature engineering and classification techniques.",
+      "Built a machine learning pipeline for cellular network telemetry, combining structured data processing, feature engineering, and classification techniques to predict handover failures.",
     technologies: ["Python", "Pandas", "NumPy", "scikit-learn"],
     link: "https://github.com/sswayam23/Prediction-of-Handover-Failures-in-5G-Cellular-Networks-Using-Machine-Learning-Concepts",
   },
+  {
+    title: "Multilingual Sentiment Analysis",
+    description:
+      "Developed and evaluated multilingual sentiment-classification workflows using NLP preprocessing and machine learning techniques across social-media text datasets.",
+    technologies: ["Python", "NLP", "TensorFlow", "PyTorch"],
+    link: "",
+  },
+  {
+    title: "Pharma Information Retrieval System",
+    description:
+      "Built a Flask-based document retrieval service with modular REST APIs for indexing, searching, and retrieving structured pharmaceutical information.",
+    technologies: ["Python", "Flask", "REST APIs", "Information Retrieval"],
+    link: "",
+  },
 ];
-
-export const CONTACT = {
-  phoneNo: "+91 94488 26746 ",
-  email: "achyuthss2003@gmail.com",
-};

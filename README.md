@@ -1,77 +1,46 @@
 # Achyuth's Portfolio
 
-My personal Portfolio Website. This highlights professional experience, technical skills, selected projects, and contact information in a modern single-page interface.
+Personal portfolio website showcasing my work and experience as a software engineer, with a focus on backend engineering, developer tooling, automation, and applied AI.
 
-## Built with
+The site is built as a responsive single-page application with an emphasis on clean UI, subtle motion, and a consistent glass-inspired visual system.
 
-- React 19.2.0
-- Vite 5.2.0
-- Tailwind CSS 3.4.4
-- React Router
-- Framer Motion
-- React Icons
+## Built With
 
-## Getting started
+* React
+* Vite
+* Tailwind CSS
+* Framer Motion
+* React Icons
+
+## Running Locally
 
 ### Prerequisites
 
-Install a current LTS release of [Node.js](https://nodejs.org/) (Node.js 18 or later is recommended) and [pnpm](https://pnpm.io/installation). 
-
-
-### Installation
+Install a recent LTS version of [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/installation).
 
 ```bash
 git clone https://github.com/achyu-dev/my-portfolio.git
-cd achyuth
+cd my-portfolio
 pnpm install
+pnpm dev
 ```
 
-### Run locally
+## Usage
 
-```bash
-pnpm dev --host 0.0.0.0
-```
+The source code is publicly available so the implementation can be viewed and explored.
 
-Vite will print the local development URL in your terminal, usually `http://localhost:5173`.
+The visual design, layout, written content, personal branding, and overall presentation of this portfolio are specific to my personal website and are **not intended to be redistributed or republished as a substantially identical portfolio or template**.
 
-## Available scripts
+If you find an implementation detail useful, feel free to learn from it and build your own interpretation rather than directly reproducing the site.
 
-| Command | Description |
-| --- | --- |
-| `pnpm dev` | Starts the Vite development server. |
-| `pnpm build` | Creates an optimized production build in `dist/`. |
-| `pnpm preview` | Serves the production build locally for review. |
-| `pnpm lint` | Runs ESLint across JavaScript and JSX files. |
+> If this repository contains a separate `LICENSE` file, that license defines the applicable permissions for the source code.
 
-## Project structure
+## Issues & Suggestions
 
-```text
-src/
-├── assets/             # Images and other static visual assets
-├── components/         # Portfolio sections and shared UI components
-├── constants/          # Experience, project, and contact content
-├── App.jsx             # Routes and page composition
-├── index.css           # Global styles and Tailwind directives
-└── main.jsx            # Application entry point
-```
+Found a bug or have a suggestion?
 
-## Customizing the portfolio
+[Open an issue](YOUR_ISSUES_LINK_HERE) and feel free to describe what could be improved.
 
-Most portfolio content lives in [`src/constants/index.js`](src/constants/index.js). Update the following exports to make the site your own:
+---
 
-- `HERO_CONTENT` for the introduction
-- `EXPERIENCES` for career history
-- `PROJECTS` for featured work
-- `CONTACT` for your email address and phone number
-
-Social links and the resume link are configured in [`src/components/Navbar.jsx`](src/components/Navbar.jsx).
-
-## Deployment
-
-Currently, the live URL is : https://achyudev.vercel.app
-
-## Contact
-
-- Email: [achyuthss2003@gmail.com](mailto:achyuthss2003@gmail.com)
-- LinkedIn: [achyuthss](https://www.linkedin.com/in/achyuthss/)
-- GitHub: [achyu-dev](https://github.com/achyu-dev)
+Built with curiosity, broken a few times, debugged, and rebuilt.
