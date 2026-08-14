@@ -33,8 +33,6 @@ The visual design, layout, written content, personal branding, and overall prese
 
 If you find an implementation detail useful, feel free to learn from it and build your own interpretation rather than directly reproducing the site.
 
-> If this repository contains a separate `LICENSE` file, that license defines the applicable permissions for the source code.
-
 ## Issues & Suggestions
 
 Found a bug or have a suggestion?
