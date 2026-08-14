@@ -6,9 +6,7 @@ import {
   SiFlask,
   SiLinux,
   SiPostgresql,
-  SiPytest,
   SiPytorch,
-  SiSelenium,
   SiTensorflow,
   SiTypescript,
 } from "react-icons/si";
@@ -17,7 +15,6 @@ import { VscAzure } from "react-icons/vsc";
 const technologyGroups = [
   {
     title: "Languages",
-    layout: "md:col-start-1 md:row-start-1",
     technologies: [
       {
         name: "Python",
@@ -38,7 +35,6 @@ const technologyGroups = [
   },
   {
     title: "Frameworks & APIs",
-    layout: "md:col-start-2 md:row-start-1",
     technologies: [
       {
         name: "React",
@@ -59,8 +55,6 @@ const technologyGroups = [
   },
   {
     title: "Data, Cloud & Tooling",
-    layout:
-      "md:col-start-1 md:row-span-2 md:row-start-2 xl:col-start-3 xl:row-start-1",
     technologies: [
       {
         name: "PostgreSQL",
@@ -95,24 +89,7 @@ const technologyGroups = [
     ],
   },
   {
-    title: "Testing",
-    layout: "md:col-start-2 md:row-start-2 xl:col-start-1",
-    technologies: [
-      {
-        name: "Selenium",
-        icon: SiSelenium,
-        color: "text-green-400",
-      },
-      {
-        name: "Pytest",
-        icon: SiPytest,
-        color: "text-blue-300",
-      },
-    ],
-  },
-  {
     title: "Machine Learning",
-    layout: "md:col-start-2 md:row-start-3 xl:row-start-2",
     technologies: [
       {
         name: "PyTorch",
@@ -145,11 +122,11 @@ const Tech = () => {
           </h2>
         </div>
 
-        <div className="grid items-start gap-5 md:grid-cols-2 lg:gap-6 xl:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2 lg:gap-6">
           {technologyGroups.map((group) => (
             <div
               key={group.title}
-              className={`
+              className="
                 relative
                 w-full
                 overflow-hidden
@@ -161,18 +138,13 @@ const Tech = () => {
                 shadow-lg
                 shadow-slate-950/10
                 backdrop-blur-md
-                transition-colors
+                transition-all
                 duration-300
+                hover:-translate-y-1
                 hover:border-slate-600/70
                 hover:bg-slate-800/45
                 sm:p-6
-                ${group.layout}
-                ${
-                  group.title === "Machine Learning"
-                    ? "max-md:mx-auto max-md:max-w-md"
-                    : ""
-                }
-              `}
+              "
             >
               {/* subtle blue glass highlight */}
               <div
@@ -194,11 +166,16 @@ const Tech = () => {
                 </h3>
 
                 <div
-                  className={`grid grid-cols-2 gap-3 sm:gap-4 ${
-                    group.title === "Machine Learning"
-                      ? "md:grid-cols-3"
-                      : "sm:grid-cols-3"
-                  }`}
+                  className={`
+                    grid
+                    gap-3
+                    sm:gap-4
+                    ${
+                      group.technologies.length === 2
+                        ? "grid-cols-2"
+                        : "grid-cols-2 sm:grid-cols-3"
+                    }
+                  `}
                 >
                   {group.technologies.map((technology) => {
                     const Icon = technology.icon;
