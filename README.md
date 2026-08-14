@@ -4,9 +4,9 @@ My personal Portfolio Website. This highlights professional experience, technica
 
 ## Built with
 
-- React 18
-- Vite
-- Tailwind CSS
+- React 19.2.0
+- Vite 5.2.0
+- Tailwind CSS 3.4.4
 - React Router
 - Framer Motion
 - React Icons
@@ -67,17 +67,11 @@ Most portfolio content lives in [`src/constants/index.js`](src/constants/index.j
 - `PROJECTS` for featured work
 - `CONTACT` for your email address and phone number
 
-Social links and the resume link are configured in [`src/components/Navbar.jsx`](src/components/Navbar.jsx). Replace the assets in `src/assets/` to update project images, profile imagery, or branding.
+Social links and the resume link are configured in [`src/components/Navbar.jsx`](src/components/Navbar.jsx).
 
 ## Deployment
 
 Currently, the live URL is : https://achyudev.vercel.app
-
-```bash
-pnpm build
-```
-
-Deploy the generated `dist/` directory. If your hosting platform uses client-side routing, configure it to redirect unknown paths to `index.html` so `/blogs` loads correctly on a direct visit.
 
 ## Contact
 
