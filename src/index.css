@@ -8,3 +8,10 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: #00091d;
+}
