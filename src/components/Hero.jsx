@@ -23,7 +23,7 @@ const Hero = () => {
               animate="visible"
               className="mt-2 pb-2 text-center text-4xl font-thin tracking-tight sm:text-5xl"
             >
-              Achyuth Somana Hally Subramanya
+              Achyuth
             </motion.h1>
           </div>
           <div className="flex justify-center">
@@ -47,7 +47,7 @@ const Hero = () => {
               animate="visible"
               className="pb-8 hidden lg:block text-6xl font-thin tracking-tight lg:mt-10 lg:text-6xl"
             >
-              Achyuth Somana Hally Subramanya
+              Achyuth
             </motion.h1>
             <motion.span
               variants={container(0.6)}

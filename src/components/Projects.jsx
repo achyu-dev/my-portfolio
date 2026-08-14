@@ -20,10 +20,7 @@ const cardVariants = {
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="border-b border-slate-800/60 py-16"
-    >
+    <section id="projects" className="border-b border-slate-800/60 py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
@@ -125,10 +122,37 @@ const Projects = () => {
                     </a>
                   )}
                 </div>
+                <div className="mb-3 flex items-center gap-3">
+                  <h3 className="text-xl font-semibold text-slate-100">
+                    {project.title}
+                  </h3>
 
-                <h3 className="mb-3 text-xl font-semibold text-slate-100">
-                  {project.title}
-                </h3>
+                  {project.status === "Coming Soon" && (
+                    <span
+                      className="
+                            inline-flex
+                            items-center
+                            gap-1.5
+                            rounded-full
+                            border
+                            border-sky-400/20
+                            bg-sky-400/10
+                            px-2.5
+                            py-1
+                            text-[10px]
+                            font-semibold
+                            uppercase
+                            tracking-[0.16em]
+                            text-sky-300
+                            shadow-sm
+                            shadow-sky-500/5
+                          "
+                    >
+                      <span className="h-1.5 w-1.5 rounded-full bg-sky-400 animate-pulse" />
+                      Coming Soon
+                    </span>
+                  )}
+                </div>
 
                 <p className="mb-6 flex-1 text-sm leading-6 text-slate-400 sm:text-base sm:leading-7">
                   {project.description}
@@ -171,7 +195,8 @@ const Projects = () => {
           className="mt-12 text-center"
         >
           <p className="text-sm text-slate-500 sm:text-base">
-            More experiments, contributions, and unfinished ideas live on GitHub.
+            More experiments, contributions, and unfinished ideas live on
+            GitHub.
           </p>
 
           <motion.a

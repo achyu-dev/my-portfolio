@@ -78,7 +78,8 @@ export const PROJECTS = [
       "whisper.cpp",
       "Local LLMs",
     ],
-    link: "",
+    status: "Coming Soon",
+    link: null,
   },
   {
     title: "Prediction of Handover Failures in Cellular Networks",
