@@ -4,9 +4,9 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `
-I'm a Software Engineer at KPMG India focused on backend systems, developer tooling, automation, and AI-assisted engineering workflows.
-I work primarily with Python, FastAPI, Linux, test automation, and agentic tooling, building systems that are reliable, maintainable, and easy to validate.
-I enjoy solving messy engineering problems, modernizing legacy workflows, experimenting with local AI systems, and contributing to open-source software.
+I'm a Software Engineer at KPMG India focused on building reliable backend systems, developer tools, and production-ready applications.
+I work primarily with Python, FastAPI, databases, Linux, and modern web technologies, with experience across APIs, automation, distributed systems, and AI-assisted workflows.
+I enjoy solving complex engineering problems, improving existing systems, and building software that is scalable, maintainable, and easy to debug.
 `;
 
 // export const ABOUT_TEXT = `
