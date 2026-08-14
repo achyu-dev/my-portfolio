@@ -13,7 +13,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-800 pb-4 lg:mb-35">
+    <div className="border-b border-neutral-800 pb-10 lg:pb-16">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-5">
           <div className="flex flex-col items-center lg:items-start lg:hidden">
@@ -21,9 +21,9 @@ const Hero = () => {
               variants={container(0.1)}
               initial="hidden"
               animate="visible"
-              className="pb-2 lg:pb-5 text-5xl font-thin tracking-tight mt-6 lg:mt-12 lg:text-9xl"
+              className="mt-2 pb-2 text-center text-4xl font-thin tracking-tight sm:text-5xl"
             >
-              Achyuth S S
+              Achyuth Somana Hally Subramanya
             </motion.h1>
           </div>
           <div className="flex justify-center">
@@ -35,7 +35,7 @@ const Hero = () => {
               alt="Achyuth SS"
               height="400px"
               width="400px"
-              className="flex justify-center mt-2 lg:mt-0"
+              className="mt-2 h-auto w-full max-w-sm object-contain lg:mt-0"
             />
           </div>
         </div>
@@ -47,24 +47,22 @@ const Hero = () => {
               animate="visible"
               className="pb-8 hidden lg:block text-6xl font-thin tracking-tight lg:mt-10 lg:text-6xl"
             >
-              Achyuth S S
+              Achyuth Somana Hally Subramanya
             </motion.h1>
             <motion.span
               variants={container(0.6)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-600 
-                    to-purple-600 bg-clip-text text-3xl tracking-tight text-transparent pb-4 w-full lg:pb-2 lg:text-left mt-2 text-center"
+              className="mt-2 w-full bg-gradient-to-r from-sky-300 via-blue-400 to-indigo-400 bg-clip-text pb-4 text-center text-2xl tracking-tight text-transparent sm:text-3xl lg:pb-2 lg:text-left"
             >
-              Analyst at KPMG India
+              Analyst - Software Engineer at KPMG India
             </motion.span>
             <motion.div
               variants={container(1.1)}
               initial="hidden"
               animate="visible"
-              className="text-2xl my-1 max-w-xl py-4 tracking-tighter w-full lg:py-2 lg:mt-4"
+              className="my-1 w-full max-w-xl py-4 text-base leading-relaxed tracking-tight sm:text-lg lg:mt-4 lg:py-2 lg:text-xl"
             >
-              <p className="text-4xl">About Me</p> <br />
               {HERO_CONTENT}
             </motion.div>
           </div>

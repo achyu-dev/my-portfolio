@@ -15,11 +15,8 @@ My personal Portfolio Website. This highlights professional experience, technica
 
 ### Prerequisites
 
-Install a current LTS release of [Node.js](https://nodejs.org/) (Node.js 18 or later is recommended) and [pnpm](https://pnpm.io/installation). With modern Node.js versions, you can enable pnpm through Corepack:
+Install a current LTS release of [Node.js](https://nodejs.org/) (Node.js 18 or later is recommended) and [pnpm](https://pnpm.io/installation). 
 
-```bash
-corepack enable
-```
 
 ### Installation
 
@@ -62,7 +59,7 @@ src/
 
 Most portfolio content lives in [`src/constants/index.js`](src/constants/index.js). Update the following exports to make the site your own:
 
-- `HERO_CONTENT` and `ABOUT_TEXT` for the introduction
+- `HERO_CONTENT` for the introduction
 - `EXPERIENCES` for career history
 - `PROJECTS` for featured work
 - `CONTACT` for your email address and phone number
