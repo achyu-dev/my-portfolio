@@ -69,16 +69,9 @@ Most portfolio content lives in [`src/constants/index.js`](src/constants/index.j
 
 Social links and the resume link are configured in [`src/components/Navbar.jsx`](src/components/Navbar.jsx). Replace the assets in `src/assets/` to update project images, profile imagery, or branding.
 
-## Routes
-
-| Route | Purpose |
-| --- | --- |
-| `/` | Main portfolio page with hero, skills, experience, projects, and contact sections. |
-| `/blogs` | Blog page. |
-
 ## Deployment
 
-Create a production build before deploying to a static host such as Vercel, Netlify, or GitHub Pages:
+Currently, the live URL is : https://achyudev.vercel.app
 
 ```bash
 pnpm build
