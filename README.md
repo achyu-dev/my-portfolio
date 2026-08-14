@@ -1,6 +1,6 @@
 # Achyuth's Portfolio
 
-A responsive personal portfolio website for **Achyuth S S**. It highlights professional experience, technical skills, selected projects, and contact information in a modern single-page interface, with a dedicated blog route.
+My personal Portfolio Website. This highlights professional experience, technical skills, selected projects, and contact information in a modern single-page interface.
 
 ## Built with
 
@@ -15,20 +15,24 @@ A responsive personal portfolio website for **Achyuth S S**. It highlights profe
 
 ### Prerequisites
 
-Install a current LTS release of [Node.js](https://nodejs.org/) (Node.js 18 or later is recommended).
+Install a current LTS release of [Node.js](https://nodejs.org/) (Node.js 18 or later is recommended) and [pnpm](https://pnpm.io/installation). With modern Node.js versions, you can enable pnpm through Corepack:
+
+```bash
+corepack enable
+```
 
 ### Installation
 
 ```bash
 git clone <your-repository-url>
 cd achyuth
-npm install
+pnpm install
 ```
 
 ### Run locally
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Vite will print the local development URL in your terminal, usually `http://localhost:5173`.
@@ -37,10 +41,10 @@ Vite will print the local development URL in your terminal, usually `http://loca
 
 | Command | Description |
 | --- | --- |
-| `npm run dev` | Starts the Vite development server. |
-| `npm run build` | Creates an optimized production build in `dist/`. |
-| `npm run preview` | Serves the production build locally for review. |
-| `npm run lint` | Runs ESLint across JavaScript and JSX files. |
+| `pnpm dev` | Starts the Vite development server. |
+| `pnpm build` | Creates an optimized production build in `dist/`. |
+| `pnpm preview` | Serves the production build locally for review. |
+| `pnpm lint` | Runs ESLint across JavaScript and JSX files. |
 
 ## Project structure
 
@@ -77,7 +81,7 @@ Social links and the resume link are configured in [`src/components/Navbar.jsx`]
 Create a production build before deploying to a static host such as Vercel, Netlify, or GitHub Pages:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Deploy the generated `dist/` directory. If your hosting platform uses client-side routing, configure it to redirect unknown paths to `index.html` so `/blogs` loads correctly on a direct visit.
